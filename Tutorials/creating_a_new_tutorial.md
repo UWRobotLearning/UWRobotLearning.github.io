@@ -112,6 +112,46 @@ Here, you have two options. File a "Draft PR" or a PR that is ready to merge rig
 ![11](/assets/imgs/meta_tut/11.png)
 
 
+## [12] Request a Reviewer
+1. Click the gear icon.
+2. Type a lab member's name to explictly request their review.
+
+![12](/assets/imgs/meta_tut/12.png)
+
+
+## [13] Patiently Await Review
+You will now see your PR waiting in the Open List under the `Pull requests` tab.
+
+![13](/assets/imgs/meta_tut/13.png)
+
+
+## [14] Get Your Review and Reply
+You'll receive some feedback on your content so far and you will receive one of these:
+1. Requested changes before approval
+2. Comments with no explicit approval
+3. Explicit approval
+
+Feel free to ask questions or ask for clarifications. These PRs are meant to be like fast conversations.
+
+![14](/assets/imgs/meta_tut/14.png)
+
+
+## [15] [If Draft] Mark Ready for Full Review
+This only applied if the PR was still in draft mode. Click the `Read for review` button to convert the draft to a full PR.
+
+![15](/assets/imgs/meta_tut/15.png)
+
+
+## [16] [If Draft] Edit the PR Title
+If the PR is changing from Draft to Full, remove the `[WIP]` prefix from the title by clicking the `Edit` button.
+
+![16](/assets/imgs/meta_tut/16.png)
+
+
+## [17] Await Merge
+Finally, ensure this title is something descriptive before it gets merged into `master` as this will remain in the record of `Merged` PRs after the merge process is complete. Typically a non-author lab member will approve the final merge.
+
+![17](/assets/imgs/meta_tut/17.png)
 
 
 ## References
