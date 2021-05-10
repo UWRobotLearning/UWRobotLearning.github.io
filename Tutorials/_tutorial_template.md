@@ -36,6 +36,25 @@ def example_function():
 Enter the command:
 `echo 'hi'`
 
+## Math
+Yes, latex works. It will show up as the raw formatting in github.com, but jekyll will render it using MathJax @ [uwrobotlearning.github.io](uwrobotlearning.github.io).
+
+Inline Math should work with $$ $$\frac{x+y}{y}$$ but not \( (\frac{x+y}{y})
+
+Use $$ on separate lines:
+
+$$ \int_{-\infty}^\infty e^{-x^2} = \sqrt{\pi} $$
+
+Use $$ on the same line: $$ \frac{-b \pm \sqrt{b^2-4ac}}{2a} $$
+
+Use $$ on separate lines:
+
+$$ a+b $$
+
+Use $$ on the same line: $$E=mc^2$$
+
+
+
 
 ## References
 
