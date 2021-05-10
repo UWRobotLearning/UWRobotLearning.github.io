@@ -7,5 +7,5 @@ permalink: /
 ---
 ## Getting Started
 
-![prof_spot](/_assets/imgs/prof_spot.png?raw=true)
+![prof_spot](/assets/imgs/prof_spot.png?raw=true)
 
