@@ -6,8 +6,6 @@ nav_order: 1
 ---
 🚧 Work In Progress
 {: .label .label-yellow}
-🔥 Work In Progress
-{: .label .label-orange}
 
 # Creating a New Tutorial
 This is a meta-tutorial on how to create a tutorial.
@@ -61,20 +59,59 @@ Change two fields in the `just_the_docs` [Frontmatter](https://jekyllrb.com/docs
 
 ![05](/assets/imgs/meta_tut/05.png)
 
+
 ## [06] Preview the Content
 Click the preview tab to see the content you've entered. You can go back and forth between 'Edit file' and 'Preview' to check your formatting.
 
 ![06](/assets/imgs/meta_tut/06.png)
 
+
 ## [07] [Optional] Remove or Change the Label
 If you plan to continue adding to this tutorial at a later date, but would like to share the content added so far, leavel the WIP label and skip this step.
 
-You can also add a different label here like 
+You can also add a different label here like:
 ```
 🔥 Fire Tutorial
-{: .label .label-orange}
+{: .label .label-blue}
 ```
 ![07](/assets/imgs/meta_tut/07.png)
+
+
+## [08] Commit Changes
+1. Scroll down to the bottom of the page.
+2. Add a quick comment about your changes.
+3. Click the green `Commit changes` button.
+
+![08](/assets/imgs/meta_tut/08.png)
+
+
+## [09] Navigate to Pull Requests
+Click the `Pull requests` Tab.
+
+![09](/assets/imgs/meta_tut/09.png)
+
+
+## [10] Create Pull Request
+You will now create a pull request to merge from the `tutorials/safe_reinforcement_learning` branch to the `master` branch.
+
+![10](/assets/imgs/meta_tut/10.png)
+
+
+## [11] Draft PR or Ready To Go PR
+Here, you have two options. File a "Draft PR" or a PR that is ready to merge right away. The purpose of a draft PR is to remain in the PR inbox with the option for other lab members to review without explicitly requesting reviews yet. Typically a Draft PR has the prefix `[WIP]` which stands for `Work in Progress`.
+
+### Draft:
+1. Give a title prefixed with `[WIP]`.
+2. Click either the drop down to select `Create draft pull request`.
+3. Click the green button to submit the draft pull request.
+
+### Ready PR:
+1. Give a title
+2. Click the `Create pull request` button to submit it for review.
+
+![11](/assets/imgs/meta_tut/11.png)
+
+
 
 
 ## References
