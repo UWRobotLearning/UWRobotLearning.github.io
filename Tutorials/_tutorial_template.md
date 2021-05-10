@@ -34,4 +34,8 @@ def example_function():
 Enter the command:
 `echo 'hi'`
 
+
+## References
+
 [This is a link](https://uwrobotlearning.github.io)
+
