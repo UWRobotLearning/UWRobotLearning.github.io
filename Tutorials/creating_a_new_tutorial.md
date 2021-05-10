@@ -6,6 +6,8 @@ nav_order: 1
 ---
 🚧 Work In Progress
 {: .label .label-yellow}
+
+# Creating a Tutorial
 This is a meta-tutorial on how to create a tutorial.
 
 This tutorial is aimed at showing a lab member how they can create new tutorials without worrying about cloning this repository or using the command line.
@@ -53,6 +55,6 @@ Change two fields in the `just_the_docs` [Frontmatter](https://jekyllrb.com/docs
 
 
 ## References
-- [Markdown Tutorial](https://commonmark.org/help/tutorial/index.html)
+- [10 min Markdown Tutorial](https://commonmark.org/help/tutorial/index.html)
 - [Github Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
 
