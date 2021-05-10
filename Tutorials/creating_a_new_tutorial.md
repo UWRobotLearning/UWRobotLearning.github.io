@@ -10,19 +10,16 @@ nav_order: 1
 # Creating a New Tutorial
 This is a meta-tutorial on how to create a tutorial.
 
-This tutorial is aimed at showing a lab member how they can create new tutorials without worrying about cloning this repository or using the command line.
+It is aimed at showing a lab member how they can create new tutorials without worrying about cloning this repository or using the command line. There are alternative ways to accomplish this, but this method can be done entirely within the github.com interface.
 
-There are alternative ways to accomplish this, but this method can be done entirely within the github.com interface.
 
-## Navigate to:
-`UWRobotLearning/UWRobotLearning.github.io/Tutorials/`
-
----
-## [00] Click `_tutorial_template.md`
+## [00] Copying the Template
+1. Navigate to `UWRobotLearning/UWRobotLearning.github.io/Tutorials/`
+2. Click `_tutorial_template.md`
 
 ![00](/assets/imgs/meta_tut/00.png)
 
----
+
 ## [01] Create New Branch
 
 1. Select switch branch by clicking on the current branch, `master`.
@@ -31,7 +28,7 @@ There are alternative ways to accomplish this, but this method can be done entir
 
 ![01](/assets/imgs/meta_tut/01.png)
 
----
+
 ## [02] Branch Created
 
 Notice, the branch selection now says `tutorials/safe..`.
@@ -45,7 +42,7 @@ Here we change the name from `_tutorial_template.md` to `safe_reinforcementlearn
 
 ![03](/assets/imgs/meta_tut/03.png)
 
----
+
 ## [04] Edit the Frontmatter
 Change two fields in the `just_the_docs` [Frontmatter](https://jekyllrb.com/docs/front-matter/).
 - Here we change the `title` from `Template for Tutorin'` to `Safe Reinforcement Learning`.
