@@ -6,11 +6,15 @@ nav_order: 1
 ---
 🚧 Work In Progress
 {: .label .label-yellow}
+🔥 Work In Progress
+{: .label .label-orange}
 
 # Creating a New Tutorial
 This is a meta-tutorial on how to create a tutorial.
 
 It is aimed at showing a lab member how they can create new tutorials without worrying about cloning this repository or using the command line. There are alternative ways to accomplish this, but this method can be done entirely within the github.com interface.
+
+In most images, red dots signify where you should focus your attention/click.
 
 
 ## [00] Copying the Template
@@ -52,15 +56,25 @@ Change two fields in the `just_the_docs` [Frontmatter](https://jekyllrb.com/docs
 
 
 ## [05] Edit the Content
-- Edit the template directly to contain the actual content you'd like to -teach to others.
+- Edit the template directly to contain the actual content you'd like to teach to others.
 - For tips on markdown, see [References](#references).
 
 ![05](/assets/imgs/meta_tut/05.png)
 
 ## [06] Preview the Content
-Click the preview.
+Click the preview tab to see the content you've entered. You can go back and forth between 'Edit file' and 'Preview' to check your formatting.
 
-![05](/assets/imgs/meta_tut/05.png)
+![06](/assets/imgs/meta_tut/06.png)
+
+## [07] [Optional] Remove or Change the Label
+If you plan to continue adding to this tutorial at a later date, but would like to share the content added so far, leavel the WIP label and skip this step.
+
+You can also add a different label here like 
+```
+🔥 Fire Tutorial
+{: .label .label-orange}
+```
+![07](/assets/imgs/meta_tut/07.png)
 
 
 ## References
