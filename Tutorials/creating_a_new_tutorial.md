@@ -151,10 +151,13 @@ If the PR is changing from Draft to Full, remove the `[WIP]` prefix from the tit
 ## [17] Await Merge
 Finally, ensure this title is something descriptive before it gets merged into `master` as this will remain in the record of `Merged` PRs after the merge process is complete. Typically a non-author lab member will approve the final merge.
 
+If the PR-Merge workflow still seems shrouded in mystery, see the [Github Workflow Tutorial](https://guides.github.com/introduction/flow/) for more detail.
+
 ![17](/assets/imgs/meta_tut/17.png)
 
 
 ## References
 - [10 min Markdown Tutorial](https://commonmark.org/help/tutorial/index.html)
 - [Github Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
+- [Gitub Workflow Tutorial](https://guides.github.com/introduction/flow/)
 
