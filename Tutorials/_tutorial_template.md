@@ -37,7 +37,7 @@ Enter the command:
 `echo 'hi'`
 
 ## Math
-Yes, latex works. It will show up as the raw formatting in github.com, but jekyll will render it using MathJax @ [uwrobotlearning.github.io](uwrobotlearning.github.io).
+Yes, latex works. It will show up as the raw formatting in github.com, but jekyll will render it using MathJax @ [uwrobotlearning.github.io](https://uwrobotlearning.github.io).
 
 Inline Math should work with $$ $$\frac{x+y}{y}$$ but not \( (\frac{x+y}{y})
 
