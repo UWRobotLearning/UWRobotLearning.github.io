@@ -2,7 +2,7 @@
 
 You can either browse this wiki using the directory structure here on github or visit [uwrobotlearning.github.io](https://uwrobotlearning.github.io)
 
-[Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development)
+[Lab and Org Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development)
 
 ### Common Usecases
 <details open>
