@@ -3,6 +3,7 @@ layout: default
 title: Template for Tutorin'
 parent: Tutorials
 nav_order: 99 
+mathjax: true
 ---
 **Last Updated:** 2021-05-10
 
