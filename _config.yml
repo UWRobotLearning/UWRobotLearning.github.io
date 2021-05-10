@@ -1,7 +1,8 @@
+title: UW Robot Learning Wiki
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
  
-theme: jekyll-theme-tactile
+remote_theme: pmarsceill/just-the-docs
