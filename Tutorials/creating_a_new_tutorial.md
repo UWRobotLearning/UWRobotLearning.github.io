@@ -7,7 +7,7 @@ nav_order: 1
 🚧 Work In Progress
 {: .label .label-yellow}
 
-# Creating a Tutorial
+# Creating a New Tutorial
 This is a meta-tutorial on how to create a tutorial.
 
 This tutorial is aimed at showing a lab member how they can create new tutorials without worrying about cloning this repository or using the command line.
