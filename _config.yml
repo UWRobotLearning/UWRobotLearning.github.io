@@ -5,5 +5,7 @@ relative_links:
   enabled: true
   collections: true
 
-search_enabled: true 
 remote_theme: pmarsceill/just-the-docs
+search_enabled: true 
+compress_html:
+  blanklines: true
