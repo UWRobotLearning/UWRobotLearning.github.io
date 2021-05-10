@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Public Repos
-parent: protocols
+parent: Protocols
 nav_order: 1
 ---
 
