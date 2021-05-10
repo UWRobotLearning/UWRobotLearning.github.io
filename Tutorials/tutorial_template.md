@@ -39,6 +39,8 @@ Enter the command:
 ## Math
 Yes, latex works. It will show up as the raw formatting in github.com, but jekyll will render it using MathJax @ [uwrobotlearning.github.io](https://uwrobotlearning.github.io).
 
+Please see [this repository](https://github.com/pdmosses/test-nav/blob/master/docs/Mathjax/EXAMPLE.md) for an example of the limits Markdown + Jekyll can handle with latex.
+
 Inline Math should work with $$ $$\frac{x+y}{y}$$ but not \( (\frac{x+y}{y})
 
 Use $$ on separate lines:
