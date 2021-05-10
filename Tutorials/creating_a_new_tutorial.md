@@ -35,7 +35,7 @@ Notice, the branch selection now says `tutorials/safe..`.
 
 ![02](/assets/imgs/meta_tut/02.png)
 
----
+
 ## [03] Edit the Filename
 
 Here we change the name from `_tutorial_template.md` to `safe_reinforcementlearning.md`.
@@ -49,6 +49,18 @@ Change two fields in the `just_the_docs` [Frontmatter](https://jekyllrb.com/docs
 - We also change the `nav_order` from `99` to `10`. This affects the ranking in the nav bar. Lower is higher on the list.
 
 ![04](/assets/imgs/meta_tut/04.png)
+
+
+## [05] Edit the Content
+- Edit the template directly to contain the actual content you'd like to -teach to others.
+- For tips on markdown, see [References](#references).
+
+![05](/assets/imgs/meta_tut/05.png)
+
+## [06] Preview the Content
+Click the preview.
+
+![05](/assets/imgs/meta_tut/05.png)
 
 
 ## References
