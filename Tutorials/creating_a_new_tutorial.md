@@ -4,6 +4,8 @@ title: Creating a New Tutorial
 parent: Tutorials
 nav_order: 1
 ---
+**Last Updated:** 2021-05-10
+
 🚧 Work In Progress
 {: .label .label-yellow}
 
