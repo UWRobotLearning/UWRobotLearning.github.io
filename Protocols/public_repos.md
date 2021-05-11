@@ -39,3 +39,7 @@ There are 3 kinds of repositories we host:
   - \>85% test coverage
   
 See [repo-template](https://github.com/UWRobotLearning/repo-template) for a starting point.
+
+## General Requirements
+- name your repo with kebab-case: `robot-learning`
+- name your package with snake_case: `robot_learning`
