@@ -43,5 +43,5 @@ See [repo-template](https://github.com/UWRobotLearning/repo-template) for a star
 ## General Requirements
 - name your repo with kebab-case: `robot-learning`
 - name your package with snake_case: `robot_learning`
-- use tags to indicate `stable` or `experimental` in public repositorys
+- use tags to indicate `stable` or `experimental` in public repositories
 - use other informative tags like `rl` or `manipulation` when appropriate
