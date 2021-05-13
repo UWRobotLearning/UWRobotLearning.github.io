@@ -22,7 +22,7 @@ There are 3 kinds of repositories we host:
 - no requirements.
 
 ### 🌿 **_public experimental_** 🧪
-- Tidy code on `main/master`. No extraenous files that play no role in the functionality
+- Tidy code on `main/master`. No extraneous files that play no role in the functionality
 - `README.md` with installation/usage instructions
 - One working, documented example
 
