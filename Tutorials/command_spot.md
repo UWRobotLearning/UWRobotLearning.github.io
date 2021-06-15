@@ -5,7 +5,7 @@ parent: Tutorials
 nav_order: 2
 mathjax: true
 ---
-**Last Updated:** 2021-06-11
+**Last Updated:** 2021-06-15
 
 🚧 Work In Progress
 {: .label .label-yellow}
@@ -39,6 +39,7 @@ robot.authenticate('user', 'password')
 
 **3. Clear E-stop:**
 ```python
+estop_endpoint = bosdyn.client.estop.EstopEndpoint(client=estop_client, name='my_estop', estop_timeout=9.0)
 estop_keep_alive = bosdyn.client.estop.EstopKeepAlive(estop_endpoint)
 print(estop_client.get_status())
 ```
@@ -66,13 +67,18 @@ robot.time_sync.wait_for_sync()
 ```python
 from bosdyn.client.robot_command import RobotCommandClient, blocking_stand
 command_client = robot.ensure_client(RobotCommandClient.default_service_name)
-blocking_stand(command_client, timeout_sec=10
+blocking_stand(command_client, timeout_sec=10)
 ```
 
 **8. Power Off:**
 ```python
-robot.power_off(cut_immediately=False
+robot.power_off(cut_immediately=False)
 ```
+
+## Troubleshooting
+- Ensure you are connected to Wifi network. Your computer can arbitrarily disconnect.
+- Ensure the battery is charged (Spot's fans and CPU will still run even if the battery is at 0%). The lights on front and back will be red if it's dead.
+- Don't send commands from inside tmux. This seems to non-deterministically lead to RPC timeouts.
 
 ## References
 
