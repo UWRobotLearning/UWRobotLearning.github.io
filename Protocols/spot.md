@@ -2,7 +2,7 @@
 layout: default
 title: BD Spot
 parent: Protocols
-nav_order: 2
+nav_order: 3
 ---
 
 # Using the Boston Dynamics Spot 🐕
