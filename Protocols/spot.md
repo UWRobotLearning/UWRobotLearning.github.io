@@ -4,6 +4,7 @@ title: BD Spot
 parent: Protocols
 nav_order: 3
 ---
+**Last Updated:** 2021-06-22
 
 # Using the Boston Dynamics Spot 🐕
 
