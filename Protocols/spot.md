@@ -40,6 +40,7 @@ nav_order: 3
 - ≥ 2 people must be present when testing.
 - Ensure there are no people downhill from the robot at all times (including the operator).
 - The operator must be comfortable with the E-stop procedure and the tablet must be configured for E-stop even if Spot is being controlled via the API.
+- ❗**Take Video** with phone and/or drone!
 
 ## Emergency Stop
 Please read the [BD documentation on stopping the robot](https://support.bostondynamics.com/s/article/Stopping-the-robot) for complete info.
