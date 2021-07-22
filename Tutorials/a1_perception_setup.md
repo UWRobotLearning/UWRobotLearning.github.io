@@ -2,7 +2,7 @@
 layout: default
 title: Set Up Perception Pipeline for A1
 parent: Tutorials
-nav_order: 99 
+nav_order: 2 
 mathjax: true
 ---
 **Last Updated:** 2021-07-20
