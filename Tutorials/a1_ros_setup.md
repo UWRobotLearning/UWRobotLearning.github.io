@@ -24,7 +24,6 @@ Note that different components of the A1's control pipeline are inherently async
 2. Automated logging for easy debugging.
 
 Manually implements the logging of every component in the control pipeline can be tedious. Instead, ROS can automatically log all topics via [rosbag](http://wiki.ros.org/rosbag), and most of the screen logs are also automatically saved, which significantly simplifies debugging.
-Another 
 
 3. Easy integration with mobile devices for outdoor testing.
 
