@@ -14,7 +14,7 @@ nav_order: 2
 
 1. Controller Location
 2. Battery Location
-   TODO: Nil: Add photo of new battery location
+   - TODO: Nil: Add photo of new battery location
 4. [Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)
 5. Robot Storage
   - Keep robot clear of mocap arena
