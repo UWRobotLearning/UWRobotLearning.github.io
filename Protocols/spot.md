@@ -14,10 +14,9 @@ nav_order: 2
 
 1. Controller Location
 2. Battery Location
-  - Left of Charging Box: needs charging
-  - Right of Charging Box: ready
-3. [Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)
-4. Robot Storage
+   TODO: Nil: Add photo of new battery location
+4. [Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)
+5. Robot Storage
   - Keep robot clear of mocap arena
 
 ## Usage Procedure
