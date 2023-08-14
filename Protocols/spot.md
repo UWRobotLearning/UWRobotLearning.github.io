@@ -10,7 +10,7 @@ nav_order: 3
 
 
 ## When Not In Use
- TODO: Replace with the up-to-date spot_resting image.
+![spot resting](../assets/imgs/spot_tut/spot_resting.jpg)
 
 
 1. **Tablet Location:** Store the tablet on top of the battery charging box. Plug the tablet into the wall charger when not in use.
