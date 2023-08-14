@@ -4,37 +4,47 @@ title: BD Spot
 parent: Protocols
 nav_order: 3
 ---
-**Last Updated:** 2021-06-22
+**Last Updated:** 2023-08-13
 
 # Using the Boston Dynamics Spot 🐕
 
 
 ## When Not In Use
+<img src="../assets/imgs/spot_tut/spot_resting.jpg" width="750" height="520">
 
-![spot resting](../assets/imgs/spot_tut/spot_resting.jpg)
 
 1. **Tablet Location:** Store the tablet on top of the battery charging box. Plug the tablet into the wall charger when not in use.
 2. **Battery Location:**
-  - Left of Charging Box: 🔋❌ needs charging
-  - Right of Charging Box: 🔋✅ ready
+  - Batteries in the **"Full"** Section: 🔋✅ ready
+  - Batteries in the **"Empty"** Section: 🔋❌ needs charging
 3. **[Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)**: 
   - If there are batteries left uncharged, please charge them using the Charging Box when around the lab.
-  - Do not leave the batteries charging unattended for longer than 30 minutes.
+  - **DO NOT** leave the batteries charging unattended for longer than 30 minutes.
+  - **DO NOT** bend the cable during charging.
 4. **Robot Storage:**
   - Keep robot clear of mocap arena.
-  - When robot testing is complete, drive Spot back to the area shown in the image and flip it over so that the battery is easily accessable.
-  - Do not leave the battery inserted when the robot is not operational.
+  - When robot testing is complete, drive Spot back to the area in Allen 014 shown in the image and flip it over so that the battery is easily accessable.
+  - **DO NOT** leave the battery inserted when the robot is not operational.
   
 ## Usage Procedure
-1. Power on the robot using the primary power button and disengage the hardware motor lock out. 
+1. Insert the Battery. Press and hold the **Power Button** for two seconds. Make sure the **Motor Lockout Button** is pressed for disengaging the hardware motor lock out.
+<img src="https://support.bostondynamics.com/servlet/rtaImage?eid=ka04X000000Pn1y&feoid=00N6g00000RYCWq&refid=0EM6g000000QAaR" width="400" height="350">
+
  > Follow the [Startup Procedure](https://support.bostondynamics.com/s/article/Startup-Procedure) for more detail.
+
 2. Wait for Spot's computers to boot (fans at 100% during startup) and then connect to Spot through its wifi network.
-3. Log on to Spot using the credentials written in the battery compartment within the belly (do not share these on the in internet).
-4. Follow the tablet prompts, and test.
-5. When testing is complete, walk the robot back over to charging area.
-6. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Rolling-Spot-over) (scroll down to bottom of page for instructions)
-7. Remove battery from Spot belly.
-8. Place partially discharged battery on the left of the Charging Box or begin charging it. Remove from charging before leaving.
+>  Log on to Spot using the credentials written on the wall shown in the image or in the battery compartment within the belly(**DO NOT** share these on the internet).
+
+3. Follow the tablet prompts (i.e. "power on motor") and test.
+
+<img src="../assets/imgs/spot_tut/clear_fault.png" width="750" height="520">
+
+> Click either **'Stand'** or **'Walk'** for clearing fault and self right.
+
+4. When testing is complete, walk the robot back over to charging area.
+5. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Startup-Procedure) (scroll down to "Shut Down" procedure for instruction)
+6. After roll over, press and hold **Power Button** to shut down and remove battery from Spot belly.
+7. Place partially discharged battery on the "Empty" section or begin charging it. Remove from charging before leaving.
 
 ## Outdoor Use
 - ≥ 2 people must be present when testing.
@@ -55,8 +65,8 @@ As long as the tablet is enabled as an E-stop end-point (this means it is active
 ## Updating Firmware
 [Official BD Downloads Page](https://support.bostondynamics.com/s/downloads)
 
-### Tablet
+### Tablet and Spot software
+[Maintaining Spot system software](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
 - Download the App image (.apk) from [Downloads](https://support.bostondynamics.com/s/downloads) page and follow these steps: 
 [Tablet Update Procedure](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
-### Batteries
-### Spot
+
