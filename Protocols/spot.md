@@ -36,11 +36,15 @@ nav_order: 3
 >  Log on to Spot using the credentials written on the wall shown in the image or in the battery compartment within the belly(**DO NOT** share these on the internet).
 
 3. Follow the tablet prompts (i.e. "power on motor") and test.
-> 
-6. When testing is complete, walk the robot back over to charging area.
-7. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Rolling-Spot-over) (scroll down to bottom of page for instructions)
-8. Remove battery from Spot belly.
-9. Place partially discharged battery on the left of the Charging Box or begin charging it. Remove from charging before leaving.
+
+<img src="../assets/imgs/spot_tut/clear_fault.png" width="750" height="520">
+
+> Click either **'Stand'** or **'Walk'** for clearing fault and self right.
+
+4. When testing is complete, walk the robot back over to charging area.
+5. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Startup-Procedure) (scroll down to "Shut Down" procedure for instruction)
+6. After roll over, press and hold **Power Button** to shut down and remove battery from Spot belly.
+7. Place partially discharged battery on the "Empty" section or begin charging it. Remove from charging before leaving.
 
 ## Outdoor Use
 - ≥ 2 people must be present when testing.
@@ -61,8 +65,8 @@ As long as the tablet is enabled as an E-stop end-point (this means it is active
 ## Updating Firmware
 [Official BD Downloads Page](https://support.bostondynamics.com/s/downloads)
 
-### Tablet
+### Tablet and Spot software
+[Maintaining Spot system software](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
 - Download the App image (.apk) from [Downloads](https://support.bostondynamics.com/s/downloads) page and follow these steps: 
 [Tablet Update Procedure](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
-### Batteries
-### Spot
+
