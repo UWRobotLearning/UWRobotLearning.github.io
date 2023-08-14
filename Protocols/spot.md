@@ -35,7 +35,7 @@ nav_order: 3
 2. Wait for Spot's computers to boot (fans at 100% during startup) and then connect to Spot through its wifi network.
 >  Log on to Spot using the credentials written on the wall shown in the image or in the battery compartment within the belly(**DO NOT** share these on the internet).
 
-3. Follow the tablet prompts (i.e. "power on motor" and "operate") and test.
+3. Follow the tablet prompts (i.e. "power on motor") and test.
 > 
 6. When testing is complete, walk the robot back over to charging area.
 7. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Rolling-Spot-over) (scroll down to bottom of page for instructions)
