@@ -4,26 +4,26 @@ title: BD Spot
 parent: Protocols
 nav_order: 3
 ---
-**Last Updated:** 2021-06-22
+**Last Updated:** 2023-08-13
 
 # Using the Boston Dynamics Spot 🐕
 
 
 ## When Not In Use
+ TODO: Replace with the up-to-date spot_resting image.
 
-![spot resting](../assets/imgs/spot_tut/spot_resting.jpg)
 
 1. **Tablet Location:** Store the tablet on top of the battery charging box. Plug the tablet into the wall charger when not in use.
 2. **Battery Location:**
-  - Left of Charging Box: 🔋❌ needs charging
-  - Right of Charging Box: 🔋✅ ready
+  - Batteries in the **"Full"** Section: 🔋✅ ready
+  - Batteries in the **"Empty"** Section: 🔋❌ needs charging
 3. **[Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)**: 
   - If there are batteries left uncharged, please charge them using the Charging Box when around the lab.
-  - Do not leave the batteries charging unattended for longer than 30 minutes.
+  - **DO NOT** leave the batteries charging unattended for longer than 30 minutes.
 4. **Robot Storage:**
   - Keep robot clear of mocap arena.
-  - When robot testing is complete, drive Spot back to the area shown in the image and flip it over so that the battery is easily accessable.
-  - Do not leave the battery inserted when the robot is not operational.
+  - When robot testing is complete, drive Spot back to the area in Allen 014 shown in the image and flip it over so that the battery is easily accessable.
+  - **DO NOT** leave the battery inserted when the robot is not operational.
   
 ## Usage Procedure
 1. Power on the robot using the primary power button and disengage the hardware motor lock out. 
