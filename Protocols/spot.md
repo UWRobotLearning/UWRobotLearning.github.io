@@ -10,7 +10,7 @@ nav_order: 3
 
 
 ## When Not In Use
-![spot resting](../assets/imgs/spot_tut/spot_resting.jpg)
+<img src="../assets/imgs/spot_tut/spot_resting.jpg" width="750" height="520">
 
 
 1. **Tablet Location:** Store the tablet on top of the battery charging box. Plug the tablet into the wall charger when not in use.
@@ -33,7 +33,7 @@ nav_order: 3
  > Follow the [Startup Procedure](https://support.bostondynamics.com/s/article/Startup-Procedure) for more detail.
 
 2. Wait for Spot's computers to boot (fans at 100% during startup) and then connect to Spot through its wifi network.
->  TODO: Add log-in stuff location. Log on to Spot using the credentials written in the battery compartment within the belly (do not share these on the internet).
+>  Log on to Spot using the credentials written on the wall shown in the image or in the battery compartment within the belly(**DO NOT** share these on the internet).
 
 3. Follow the tablet prompts (i.e. "power on motor" and "operate") and test.
 > 
