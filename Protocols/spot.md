@@ -20,21 +20,27 @@ nav_order: 3
 3. **[Charging](https://support.bostondynamics.com/s/article/Spot-Charging-Configurations)**: 
   - If there are batteries left uncharged, please charge them using the Charging Box when around the lab.
   - **DO NOT** leave the batteries charging unattended for longer than 30 minutes.
+  - **DO NOT** bend the cable during charging.
 4. **Robot Storage:**
   - Keep robot clear of mocap arena.
   - When robot testing is complete, drive Spot back to the area in Allen 014 shown in the image and flip it over so that the battery is easily accessable.
   - **DO NOT** leave the battery inserted when the robot is not operational.
   
 ## Usage Procedure
-1. Power on the robot using the primary power button and disengage the hardware motor lock out. 
+1. Insert the Battery. Press and hold the **Power Button** for two seconds. Make sure the **Motor Lockout Button** is pressed for disengaging the hardware motor lock out.
+<img src="https://support.bostondynamics.com/servlet/rtaImage?eid=ka04X000000Pn1y&feoid=00N6g00000RYCWq&refid=0EM6g000000QAaR" width="400" height="350">
+
  > Follow the [Startup Procedure](https://support.bostondynamics.com/s/article/Startup-Procedure) for more detail.
+
 2. Wait for Spot's computers to boot (fans at 100% during startup) and then connect to Spot through its wifi network.
-3. Log on to Spot using the credentials written in the battery compartment within the belly (do not share these on the in internet).
-4. Follow the tablet prompts, and test.
-5. When testing is complete, walk the robot back over to charging area.
-6. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Rolling-Spot-over) (scroll down to bottom of page for instructions)
-7. Remove battery from Spot belly.
-8. Place partially discharged battery on the left of the Charging Box or begin charging it. Remove from charging before leaving.
+>  TODO: Add log-in stuff location. Log on to Spot using the credentials written in the battery compartment within the belly (do not share these on the internet).
+
+3. Follow the tablet prompts (i.e. "power on motor" and "operate") and test.
+> 
+6. When testing is complete, walk the robot back over to charging area.
+7. [Automatically Roll Spot Over](https://support.bostondynamics.com/s/article/Rolling-Spot-over) (scroll down to bottom of page for instructions)
+8. Remove battery from Spot belly.
+9. Place partially discharged battery on the left of the Charging Box or begin charging it. Remove from charging before leaving.
 
 ## Outdoor Use
 - ≥ 2 people must be present when testing.
