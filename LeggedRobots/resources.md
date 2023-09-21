@@ -8,8 +8,8 @@ nav_order: 2
 
 
 <img src="../../assets/imgs/a1_image.png" width="300" height="300">
-### Papers 
+### Papers
 
-[CAJun: Continuous Adaptive Jumping using a Learned Centroidal Controller](https://arxiv.org/abs/2306.09557)
+[CAJun: Continuous Adaptive Jumping using a Learned Centroidal Controller](https://arxiv.org/abs/2306.09557) ( [website](https://yxyang.github.io/cajun/))
 
 ### Repos
