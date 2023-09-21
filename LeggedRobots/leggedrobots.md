@@ -26,6 +26,7 @@ We will have a meeting bi-weekly to track progress and troubleshoot issues. Anyo
 We also have a legacy channel #legs in the RLL slack which we can use for asynchronous chat.
 
 ## Robots
-A1 x2 \
-Go1 \
-Go2
+Spot \
+A1 (Ghost) \
+A1 (Lucy) \
+Go1 
