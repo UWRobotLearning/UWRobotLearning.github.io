@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /LeggedRobots
 ---
 
-Hello everyone! :wave:
+Hello everyone! 👋
 
 We are starting a sprint which aims to expose a reasonable demo / research starting point for the quadruped platforms.
 
