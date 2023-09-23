@@ -4,8 +4,7 @@ title: Resources
 parent: Legged Robots Index
 nav_order: 2
 ---
-**Last Updated:** 2023-09-21
-
+**Last Updated:** `=this.file.mtime`
 
 <img src="../../assets/imgs/a1_image.png" width="300" height="300">
 
@@ -13,5 +12,5 @@ nav_order: 2
 
 [CAJun: Continuous Adaptive Jumping using a Learned Centroidal Controller](https://arxiv.org/abs/2306.09557) ( [website](https://yxyang.github.io/cajun/)) \
 [Robot Parkour](https://arxiv.org/abs/2309.05665)
-New paper
+
 ### Repos
