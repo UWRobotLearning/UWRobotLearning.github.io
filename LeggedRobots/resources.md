@@ -11,7 +11,7 @@ nav_order: 2
 ### 📚 Papers
 
 [CAJun: Continuous Adaptive Jumping using a Learned Centroidal Controller](https://arxiv.org/abs/2306.09557) ( [website](https://yxyang.github.io/cajun/)) \
-[Robot Parkour](https://arxiv.org/abs/2309.05665)
+[Robot Parkour](https://arxiv.org/abs/2309.05665) \
 [Learning Quadrupedal Locomotion over Challenging Terrain](https://leggedrobotics.github.io/rl-blindloco/)
 
 ### Repos
