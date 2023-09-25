@@ -4,7 +4,7 @@ title: Resources
 parent: Legged Robots Index
 nav_order: 2
 ---
-**Last Updated:** `=this.file.mtime`
+**Last Updated:** 2023-09-24 
 
 <img src="../../assets/imgs/a1_image.png" width="300" height="300">
 
