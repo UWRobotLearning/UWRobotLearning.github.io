@@ -22,11 +22,8 @@ Our goal is to refine these code bases to provide:
 3. Transferability to any of the quadruped platforms
 	1. working in the direction of generalized ground autonomy
 
-We will have a meeting bi-weekly to track progress and troubleshoot issues. Anyone who is interested in using the quadrupeds in the future is encouraged to join! Timing will be determined based on schedules, but we will have the first group meeting next week. (Tentatively Wednesday at 11am)
-We also have a legacy channel #legs in the RLL slack which we can use for asynchronous chat.
-
 ## Robots
 Spot \
-A1 (Ghost) \
-A1 (Lucy) \
+A1 (Ghost of Lucy) \
+A1 (Nymeria) \
 Go1 
