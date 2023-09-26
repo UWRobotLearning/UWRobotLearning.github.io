@@ -5,6 +5,7 @@ has_children: true
 nav_order: 3
 permalink: /LeggedRobots
 ---
+<img src="https://cdn-blog.adafruit.com/uploads/2019/09/spot2.gif" height=375 width=900>
 
 Hello everyone! 👋
 
@@ -25,5 +26,5 @@ Our goal is to refine these code bases to provide:
 ## Robots
 Spot \
 A1 (Ghost of Lucy) \
-A1 (Nymeria) \
+A1 () \
 Go1 
