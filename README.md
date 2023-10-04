@@ -28,7 +28,7 @@ You can either browse this wiki using the directory structure here on github or 
     <summary>🗓️ Updates on Development: </summary>
     <br>
     <ol>
-      <li>Read the updates in <a href=./Updates/UsingDocker.md">Adding Udpate</a>.</li>
+      <li>Read the updates in <a href=./Updates">Adding Updates</a>.</li>
     </ol>
 </details>
 
