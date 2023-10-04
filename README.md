@@ -2,7 +2,7 @@
 
 You can either browse this wiki using the directory structure here on github or visit [uwrobotlearning.github.io](https://uwrobotlearning.github.io)
 
-[Lab and Org Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development)
+[Lab and Org Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development) || [Updates](./Updates)
 
 ### Common Usecases
 <details open>
@@ -20,6 +20,16 @@ You can either browse this wiki using the directory structure here on github or 
     <br>
     <ol>
       <li>Follow the steps in <a href=./Tutorials/creating_a_new_tutorial.md">Creating a New Tutorial</a>.</li>
+    </ol>
+    
+</details>
+
+<details>
+
+    <summary>🗓️ Updates on Development: </summary>
+    <br>
+    <ol>
+      <li>Read the updates in <a href=./Updates/UsingDocker.md">Adding Updates</a>.</li>
     </ol>
     
 </details>
