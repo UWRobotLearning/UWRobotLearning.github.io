@@ -2,7 +2,7 @@
 
 You can either browse this wiki using the directory structure here on github or visit [uwrobotlearning.github.io](https://uwrobotlearning.github.io)
 
-[Lab and Org Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development) || [Updates](./Updates)
+[Lab and Org Protocols](./Protocols) || [Tutorials](./Tutorials) || [Development Tips](./Development)
 
 ### Common Usecases
 <details open>
@@ -24,13 +24,7 @@ You can either browse this wiki using the directory structure here on github or 
     
 </details>
 
-<details>
-    <summary>🗓️ Updates on Development: </summary>
-    <br>
-    <ol>
-      <li>Read the updates in <a href=./Updates">Adding Updates</a>.</li>
-    </ol>
-</details>
+
 
 <details>
     <summary>🔧 Maintaining Repos: </summary>
