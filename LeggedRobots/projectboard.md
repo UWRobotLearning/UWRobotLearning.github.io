@@ -24,4 +24,3 @@ B --> C[Box 3]
 <iframe src="https://github.com/orgs/UWRobotLearning/projects" width="1000" height="1000"></iframe>
 [https://github.com/orgs/UWRobotLearning/projects/1/views/1](https://github.com/orgs/UWRobotLearning/projects/1/views/1)
 
-### Go Here
