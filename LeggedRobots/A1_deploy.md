@@ -20,5 +20,6 @@ nav_order: 1
 
 ## TBD
 
-- Need to send commands through UDP
+- Need to send commands through UDP protocol
 - Docker run Unitree SDK and test rosnodes
+- Need to log data from a1 via UDP protocol
