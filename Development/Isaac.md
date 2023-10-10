@@ -1,3 +1,11 @@
+---
+layout: default
+title: Isaac
+parent: Development Tips
+nav_order: 2
+---
+**Last Updated:** 2023-10-10  
+
 In this article, note that `~/WORKING_DIR/` refers to any directory that will contain the cloned repo.
 
 TODO: insert the image explaining differences.
