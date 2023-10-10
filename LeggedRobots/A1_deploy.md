@@ -13,8 +13,12 @@ nav_order: 1
 - Able to Ping A1 via orin           ✅
 - Able to build unitree sdk on stack ✅
 
+- Building Unitree v3.5.1            ✅
+    1. Dependency issue was libboost ✅
+    2. LCM not needed to be resolved ✅
+
+
 ## TBD
 
-- LCM issue needs to be resolved
 - Need to send commands through UDP
 - Docker run Unitree SDK and test rosnodes
