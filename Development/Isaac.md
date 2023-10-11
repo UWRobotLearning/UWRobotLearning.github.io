@@ -18,22 +18,20 @@ TODO: insert the image explaining differences.
 
 >**Note:** old docs can be found at: `~/WORKING_DIR/isaacgym/docs/index.html`
 
+2. 
 <details markdown="block">
-<summary> 2. Install Commands (expand) </summary>
+<summary>  Install Commands (expand) </summary>
 ```bash
 cd ~/WORKING_DIR/isaacgym/python 
 conda create -n environment_name_goes_here python==3.8
 conda activate environment_name_goes_here
 pip install -e .
-
-#test to make sure isaacgym is running correctly
-cd ~/WORKING_DIR/isaacgym/python/examples
-python 1080_balls_of_solitude.py
 ```
 </details>
-
+/
+3. 
 <details markdown="block">
-<summary> 3. Testing it worked(expand) </summary>
+<summary> Testing it worked(expand) </summary>
 ```bash
 #test to make sure isaacgym is running correctly
 cd ~/WORKING_DIR/isaacgym/python/examples
@@ -43,7 +41,7 @@ python 1080_balls_of_solitude.py
 
 
 
-#### Related
+### Related
 - leggedgym
 - [isaacgymenvs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs)
 
@@ -57,6 +55,6 @@ default api (omni.isaac.core)
 - Franka
 default gym api (omni.isaac.gym)
 
-#### Related
+### Related
 - [orbit](https://github.com/NVIDIA-Omniverse/Orbit)
 - [omniisaacgymenvs](https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs)
