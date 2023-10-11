@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started with A1 Control
+title: Onboarding for A1 Control
 parent: Legged Robots Index
 nav_order: 1
 ---
@@ -12,7 +12,8 @@ nav_order: 1
 
 ## 0. Install Isaac-gym and test venv
 
-See Isaac Dev page
+If you do not have Isaac installed please see the [Isaacgym Dev](../Development/Isaac) section.
+
 ## 1.  Clone this repo, create venv, and install dependencies
 
 
@@ -44,7 +45,7 @@ pip install -e .
 
 
 ## 2. Run `train.py` script
-2. 1 run train_nohydra.py
+ 2.1 run train_nohydra.py
 
 <details markdown="block">
 <summary> Code (expand) </summary>
