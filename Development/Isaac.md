@@ -12,13 +12,13 @@ TODO: insert the image explaining differences.
 
 ## Isaac Gym
 
-0. If you don't have conda installed, see [Virtual Environments](./Virtual Environments) section.
+### 0. If you don't have conda installed, see [Virtual Environments](./Virtual Environments) section.
 
-1. Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) to `~/WORKING_DIR/`
+### 1. Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) to `~/WORKING_DIR/`
 
 >**Note:** old docs can be found at: `~/WORKING_DIR/isaacgym/docs/index.html`
 
-2. 
+### 2. 
 <details markdown="block">
 <summary>  Install Commands (expand) </summary>
 ```bash
@@ -28,8 +28,8 @@ conda activate environment_name_goes_here
 pip install -e .
 ```
 </details>
-/
-3. 
+
+### 3. 
 <details markdown="block">
 <summary> Testing it worked(expand) </summary>
 ```bash
