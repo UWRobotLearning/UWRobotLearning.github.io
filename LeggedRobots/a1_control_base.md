@@ -26,7 +26,7 @@ git clone https://github.com/UWRobotLearning/a1_control_simple
 
 
 <details markdown="block">
-<summary> 1. 2Install dependencies (expand) </summary>
+<summary> 1.2 Install dependencies (expand) </summary>
 ```bash
 conda create -n a1 python==3.8
 conda activate a1
@@ -42,7 +42,9 @@ pip install -e .
 - scikit-learn
 - tqdm
 
+
 ## 2. Run `train.py` script
+2. 1 run train_nohydra.py
 
 <details markdown="block">
 <summary> Code (expand) </summary>
