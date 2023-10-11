@@ -12,7 +12,7 @@ nav_order: 1
 
 ## 0. Install Isaac-gym and test venv
 
-If you do not have Isaac installed please see the [Isaacgym Dev](../Development/Isaac) section.
+If you do not have Isaacgym installed please see the [Dev/Isaac](../Development/Isaac#isaac-gym) page.
 
 ## 1.  Clone this repo, create venv, and install dependencies
 
