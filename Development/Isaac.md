@@ -18,26 +18,22 @@ TODO: insert the image explaining differences.
 
 >**Note:** old docs can be found at: `~/WORKING_DIR/isaacgym/docs/index.html`
 
-### 2. 
-<details markdown="block">
-<summary>  Install Commands (expand) </summary>
+### 2. Install  
+
 ```bash
 cd ~/WORKING_DIR/isaacgym/python 
 conda create -n environment_name_goes_here python==3.8
 conda activate environment_name_goes_here
 pip install -e .
 ```
-</details>
 
-### 3. 
-<details markdown="block">
-<summary> Testing it worked(expand) </summary>
+### 3. Testing Isaac Works 
+
 ```bash
 #test to make sure isaacgym is running correctly
 cd ~/WORKING_DIR/isaacgym/python/examples
 python 1080_balls_of_solitude.py
 ```
-</details>
 
 
 
