@@ -15,7 +15,7 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 `````
 
-See the [miniconda documenation](https://docs.conda.io/projects/miniconda/en/latest/)for the most up-to-date instructions and distributions for other platforms.
+See the [miniconda documenation](https://docs.conda.io/projects/miniconda/en/latest/) for the most up-to-date instructions and distributions for other platforms.
 
 ## Conda vs.  VirtualEnv vs. ?
 
