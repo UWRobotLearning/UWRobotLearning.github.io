@@ -12,13 +12,14 @@ TODO: insert the image explaining differences.
 
 ## Isaac Gym
 
-See [Virtual Environments](./Virtual Environments) section.
+0. If you don't have conda installed, see [Virtual Environments](./Virtual Environments) section.
 
-Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) to `~/WORKING_DIR/`
+1. Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) to `~/WORKING_DIR/`
+
 >**Note:** old docs can be found at: `~/WORKING_DIR/isaacgym/docs/index.html
 
 <details markdown="block">
-<summary> Install Commands (expand) </summary>
+<summary> 2. Install Commands (expand) </summary>
 ```bash
 cd ~/WORKING_DIR/isaacgym/python 
 conda create -n environment_name_goes_here python==3.8
@@ -30,6 +31,16 @@ cd ~/WORKING_DIR/isaacgym/python/examples
 python 1080_balls_of_solitude.py
 ```
 </details>
+
+<details markdown="block">
+<summary> 3. Testing it worked(expand) </summary>
+```bash
+#test to make sure isaacgym is running correctly
+cd ~/WORKING_DIR/isaacgym/python/examples
+python 1080_balls_of_solitude.py
+```
+</details>
+
 
 
 #### Related
