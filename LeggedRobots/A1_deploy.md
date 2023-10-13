@@ -16,6 +16,8 @@ nav_order: 1
 - Building Unitree v3.5.1            ✅
     1. Dependency issue was libboost ✅
     2. LCM not needed to be resolved ✅
+- Quad walks after running Yuxiang's
+  repo code                       ✅✅✅
 
 
 
