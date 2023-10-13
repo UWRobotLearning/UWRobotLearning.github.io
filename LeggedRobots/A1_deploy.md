@@ -18,6 +18,12 @@ nav_order: 1
     2. LCM not needed to be resolved ✅
 
 
+
+## Interesting developments
+- Able to get "some" data from 
+  unitree after sshing into it via 
+  wifi
+
 ## TBD
 
 - Need to send commands through UDP protocol
@@ -27,6 +33,12 @@ nav_order: 1
 
 ## Issues
 - Not responding on v3.5.1
+- /usr/bin/ld: cannot find -lunitree_legged_sdk_arm64
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/robot_interface.dir/build.make:97: robot_interface.cpython-38-aarch64-linux-gnu.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Error 2
+
+
 
 ## Important Links
 - [Unitree_sdk_not_working](https://forum.mybotshop.de/t/unitree-a1-unitree-legged-sdk-is-not-working/611)
