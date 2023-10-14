@@ -25,15 +25,12 @@ nav_order: 1
 - Able to build Unitree on docker
   and run as well as test the A1   ✅✅✅
 
-
-
-
 ## TBD
 
 - Need to send commands through UDP protocol
 - Docker run Unitree SDK and test rosnodes
 - Need to log data from a1 via UDP protocol
-- 
+
 
 ## Issues
 - Not responding on v3.5.1
@@ -45,16 +42,19 @@ make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Erro
   without building yuxiang's code.
 
 
-
-## Important Links
-- [Unitree_sdk_not_working](https://forum.mybotshop.de/t/unitree-a1-unitree-legged-sdk-is-not-working/611)
-
-
-## Reason
+## Resolving unitree sdk build issue
 
 1. Raspberry PI seems to be having the same IP as TX2 (Not currently in the A1). 
+
+   IP for the unitree quadruped is 192.168.123.X
+
+   Sport mode uses a high level controller (need to confirm this properly)
+   It is on sport mode, X = 10
+   Basic mode uses low level controller (need to confirm this properly)
+   It is on basic mode, X = 161
+
    The example codes seem to be setting the controller to HIGH for the A1 which is not possible.
-   The code that we tested scales back to 2021 that focuses on Low level controlling.
+   The code that we tested scales back to 2021 that focuses on Low level controlling
    
    We used the example position code from the below repo.
    Repository : [Unitree 2020](https://github.com/unitreerobotics/unitree_legged_sdk/blob/918d6c684b3f431416a68370603f470457cf9bae/examples/example_position.cpp)
