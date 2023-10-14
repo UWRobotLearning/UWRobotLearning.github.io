@@ -49,20 +49,21 @@ make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Erro
    IP for the unitree quadruped is 192.168.123.X
 
    Sport mode uses a high level controller (need to confirm this properly)
-   It is on sport mode, X = 10
+   If sport mode, it communicates with a Tx2, X = 161 
    Basic mode uses low level controller (need to confirm this properly)
-   It is on basic mode, X = 161
+   If basic mode it communicates directly with a embedded board (not-ssh'able), X = 10
 
-   The example codes seem to be setting the controller to HIGH for the A1 which is not possible.
-   The code that we tested scales back to 2021 that focuses on Low level controlling
+   The `example_walk` sets the control level to HIGH for the A1 which is meant to interface with the default-from-factory TX2 in 'SPORT MODE'.
+   Because the TX2 was removed on the A1 named "Ghost", commands via SPORT MODE won't work.
+   What makes this even more confusing is that there is a raspberry Pi installed as a replacement for the TX2 on "Ghost" which has the same IP (X=161) set.
+   We were able to build and run a different `example_position` code which communicates with the Basic mode and works. We obtained this example from an earlier version of the codebase (note there are changes to API since then, such as the UDP constructors).
    
    We used the example position code from the below repo.
    Repository : [Unitree 2020](https://github.com/unitreerobotics/unitree_legged_sdk/blob/918d6c684b3f431416a68370603f470457cf9bae/examples/example_position.cpp)
    
 
    We were able to run example_position() by manually building it and thus receive data.
-   For walking (which was stooping in this case) we were able to build it by following
-   Yuxiang's repo and even test it. 
+   Python scripts which use Pybind bindings to communciate at the low level API still work as expected.
    
 
 
