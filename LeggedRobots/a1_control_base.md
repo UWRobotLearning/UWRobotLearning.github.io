@@ -33,7 +33,7 @@ conda create -n a1 python==3.8
 conda activate a1
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-cd a1_control_simple
+cd ground_control_base
 pip install -e .
 ```
 </details>
@@ -45,20 +45,49 @@ pip install -e .
 
 
 ## 2. Run `train.py` script
- 2.1 run train_nohydra.py
+
+This runs the base training loop with sane defaults. It utilizes hydra for:
+1. More powerful config interpolation / composition
+2. Parallelized experiment dispatch
+3. Plug-in to hyperparam search like Optuna, Ax, Nevergrad...
+
+Note that this code can be run without hydra, and it is helpful to note that clean code creates a clear barrier between "config-logic" and machinery. This maintains a clear decoupling which allows your contributions to be "evergreen" rather than ad-hoc.
+
+> See [Config Management](./config_management) for a more detailed discussion of this concept.
 
 <details markdown="block">
-<summary> Code (expand) </summary>
+<summary> 2.0 Examine the `train_nohydra.py` (expand) </summary>
 ```bash
-cd ~/WORKING_DIR/
-python a1_control_simple/leggedgym/scripts/train.py
+vim train_nohydra.py
 ```
 This will produce outputs in `experiment_logs` which contain:
 > Insert image of 
 
 </details>
 
+<details markdown="block">
+<summary> 2.1 Run`train.py` (expand) </summary>
+```bash
+cd ~/WORKING_DIR
+python ground_control/leggedgym/scripts/train.py
+```
+This will produce outputs in `experiment_logs` which contain:
+> Insert image here 
+
+</details>
+
 ## 3. Run `play.py` script
+
+<details markdown="block">
+<summary> 2.1 Run`play.py` (expand) </summary>
+```bash
+cd ~/WORKING_DIR
+python ground_control/leggedgym/scripts/play.py
+```
+This will produce outputs in `experiment_logs` which contain:
+> Insert image here 
+
+</details>
 
 ## 4. Inspect `experiment_logs` outputs
 - View Tensorboard rewards
