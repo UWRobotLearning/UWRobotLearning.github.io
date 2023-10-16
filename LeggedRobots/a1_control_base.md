@@ -21,7 +21,7 @@ If you do not have Isaacgym installed please see the [Dev/Isaac](../Development/
 <summary> 1.1 Clone the repo (expand) </summary>
 ```bash
 cd ~/WORKING_DIR/
-git clone https://github.com/UWRobotLearning/a1_control_simple
+git clone https://github.com/UWRobotLearning/ground_control_base
 ```
 </details>
 
@@ -61,14 +61,14 @@ This will produce outputs in `experiment_logs` which contain:
 ## 3. Run `play.py` script
 
 ## 4. Inspect `experiment_logs` outputs
+- View Tensorboard rewards
+- Make way to "remove the noise"
 
 ## 5. Make a change to the `Env` config
 
 ## 6. Train again (do step 2)
 
 ## 7. Deploy to hardware
-
-
 
 
 ## Related Repo Sources
