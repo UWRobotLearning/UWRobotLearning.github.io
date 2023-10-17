@@ -13,7 +13,6 @@ nav_order: 1
 ## 0. Install Isaac-gym and test venv
 
 If you do not have Isaacgym installed please see the [Dev/Isaac](../Development/Isaac#isaac-gym) page.
-RTFM on good research code.
 
 ## 1.  Clone this repo, create venv, and install dependencies
 
@@ -28,7 +27,7 @@ git clone https://github.com/UWRobotLearning/ground_control_base
 
 
 <details markdown="block">
-<summary> 1.2 Install dependencies (expand) </summary>
+<summary> 1.2 Create virtual env and install dependencies (expand) </summary>
 ```bash
 conda create -n a1 python==3.8
 conda activate a1
@@ -82,7 +81,7 @@ This will produce outputs in `experiment_logs` which contain:
 ## 3. Run `play.py` script
 
 <details markdown="block">
-<summary> 2.1 Run`play.py` (expand) </summary>
+<summary> 2.1 Run play.py (expand) </summary>
 ```bash
 cd ~/WORKING_DIR
 python ground_control/leggedgym/scripts/play.py
