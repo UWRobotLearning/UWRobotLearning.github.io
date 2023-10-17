@@ -50,7 +50,7 @@ pip install -e .
 
 This is the entry point to the base training loop with sane defaults. It utilizes [hydra](https://hydra.cc/docs/intro/) for:
 1. More powerful config interpolation / composition
-2. Parallelized experiment dispatch
+2. Parallelized experiment dispatch via [Joblib](https://joblib.readthedocs.io/en/stable/), [SLURM](https://slurm.schedmd.com/documentation.html), [Ray](https://docs.ray.io/en/latest/ray-core/walkthrough.html), or [Submitit](https://github.com/facebookincubator/submitit)
 3. Plug-in to hyperparam search like [Optuna](https://optuna.org/#key_features), [Ax](https://ax.dev/docs/why-ax.html), [Nevergrad](https://facebookresearch.github.io/nevergrad/)...
 
 Note that this code can be run without hydra, and it is helpful to note that clean code creates a clear barrier between "config-logic" and envs / learning machinery. This maintains a clear decoupling which allows your contributions to be _evergreen_ rather than _ad-hoc_.
@@ -59,7 +59,7 @@ Note that this code can be run without hydra, and it is helpful to note that cle
 
 <details markdown="block">
 <summary> 2.0 Examine the train_nohydra.py (expand) </summary>
-This code is an example of how to construct the Env / Runner classes and still configure them via the hierarchical dataclass `TrainScriptConfig`. Note that there is no hydra used anywhere.
+This code is an example of how to construct the Env / Runner classes and still configure them via the hierarchical dataclass `TrainScriptConfig`. Note that there is no hydra dependency anywhere.
 
 ```bash
 vim train_nohydra.py
