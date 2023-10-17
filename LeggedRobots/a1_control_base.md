@@ -25,26 +25,23 @@ git clone https://github.com/UWRobotLearning/ground_control_base
 ```
 </details>
 
-
 <details markdown="block">
 <summary> 1.2 Create virtual env and install dependencies (expand) </summary>
+
+> ⚠️️ **Note:** The conda environment must be using python3.8 to be compatible with isaacgym.
+
 ```bash
 conda create -n a1 python==3.8
 conda activate a1
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 cd ground_control_base
+pip install -r requirements.txt
 pip install -e .
 ```
 </details>
 
-> ⚠️️ Need to add these dependencies (or remove them totally)
-- noise
-- scikit-learn
-- tqdm
-
-> Briefly list why the dependencies exist
-
+> ⚠️️ TODO: Briefly justify why dependencies exist
 
 ## 2. Run `train.py` script
 
@@ -106,8 +103,7 @@ python ground_control/leggedgym/scripts/play.py
 ## 4. Inspect `experiment_logs` outputs
 At this point, you might want to look at the performance on some metrics, review saved video artifacts, inspect logs, or look at learning curves. We will briefly touch on what artifacts are produced within experiment logs as well as recommend creating a new repo to capture these.
 
-- View Tensorboard rewards
-- Make way to "remove the noise"
+- View Tensorboard reward curves
 ## 5. Make a change to the `Env` config
 
 ## 6. Train again (do step 2)
