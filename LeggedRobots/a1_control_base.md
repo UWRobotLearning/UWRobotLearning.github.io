@@ -54,7 +54,7 @@ This runs the base training loop with sane defaults. It utilizes [hydra](https:/
 2. Parallelized experiment dispatch
 3. Plug-in to hyperparam search like [Optuna](https://optuna.org/#key_features), [Ax](https://ax.dev/docs/why-ax.html), [Nevergrad](https://facebookresearch.github.io/nevergrad/)...
 
-Note that this code can be run without hydra, and it is helpful to note that clean code creates a clear barrier between "config-logic" and machinery. This maintains a clear decoupling which allows your contributions to be "evergreen" rather than ad-hoc.
+Note that this code can be run without hydra, and it is helpful to note that clean code creates a clear barrier between "config-logic" and envs / learning machinery. This maintains a clear decoupling which allows your contributions to be _evergreen_ rather than _ad-hoc_.
 
 > See [Config Management](./config_management) for a more detailed discussion of this concept.
 
