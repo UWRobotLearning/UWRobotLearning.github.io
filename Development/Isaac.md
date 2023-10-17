@@ -42,7 +42,7 @@ python 1080_balls_of_solitude.py
 - leggedgym
 - [isaacgymenvs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs)
 
-
+<br>
 ## Isaac-Sim
 - documentation
 - requires NVidia RTX GPU
