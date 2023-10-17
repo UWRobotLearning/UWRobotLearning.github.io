@@ -4,7 +4,7 @@ title: Onboarding for A1 Control
 parent: Legged Robots Index
 nav_order: 1
 ---
-**Last Updated:** 2023-10-10  
+**Last Updated:** 2023-10-17  
 
 ![overview](/assets/imgs/a1_repo/repo_overview.png?raw=true)
 
@@ -74,7 +74,21 @@ cd ~/WORKING_DIR
 python ground_control/leggedgym/scripts/train.py
 ```
 This will produce outputs in `experiment_logs` which contain:
-> Insert image here 
+```
+user@computer:~/WORKING_DIR/experiment_logs$ tree
+.
+├── 2023-10-13_14-35-39
+│   ├── events.out.tfevents.1697232945.u114025.45506.0
+│   ├── exported_policy.pt
+│   ├── model_0.pt
+│   ├── ⋮
+│   ├── model_1000.pt
+│   ├── ⋮
+│   ├── model_5000.pt
+│   ├── resolved_config.pkl
+│   ├── resolved_config.yaml
+│   └── train.log
+```
 
 </details>
 
