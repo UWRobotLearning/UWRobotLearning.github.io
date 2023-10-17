@@ -12,7 +12,8 @@ TODO: insert the image explaining differences.
 
 ## Isaac Gym
 
-### 0. If you don't have conda installed, see [Virtual Environments](./Virtual Environments) section.
+### 0. **Install Conda**
+If you don't have conda installed, see [Virtual Environments](./Virtual Environments) section.
 
 ### 1. Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) to `~/WORKING_DIR/`
 
