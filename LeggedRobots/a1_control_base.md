@@ -48,7 +48,7 @@ pip install -e .
 
 ## 2. Run `train.py` script
 
-This runs the base training loop with sane defaults. It utilizes [hydra](https://hydra.cc/docs/intro/) for:
+This is the entry point to the base training loop with sane defaults. It utilizes [hydra](https://hydra.cc/docs/intro/) for:
 1. More powerful config interpolation / composition
 2. Parallelized experiment dispatch
 3. Plug-in to hyperparam search like [Optuna](https://optuna.org/#key_features), [Ax](https://ax.dev/docs/why-ax.html), [Nevergrad](https://facebookresearch.github.io/nevergrad/)...
@@ -74,7 +74,7 @@ cd ~/WORKING_DIR
 python ground_control/leggedgym/scripts/train.py
 ```
 This will produce outputs in `experiment_logs` which contain:
-```
+```bash
 user@computer:~/WORKING_DIR/experiment_logs$ tree
 .
 ├── 2023-10-13_14-35-39
@@ -94,15 +94,14 @@ user@computer:~/WORKING_DIR/experiment_logs$ tree
 
 ## 3. Run `play.py` script
 
+This is the entry point for replaying training runs. It defaults to replaying the most recent model trained in the most recent (chronogically) folder located in `experiment logs` by default. This script reproduces the exact conditions of the specified experiment by deserializing the `resolved_config` and loading it into the configs defined at the top of the script into the `MISSING` fields. Note that play is only meant to replay in Isaac. For deploying to real or sim-to-sim (e.g. pybullet or mujoco), use `deploy.py`.
+
 <details markdown="block">
 <summary> 2.1 Run play.py (expand) </summary>
 ```bash
 cd ~/WORKING_DIR
 python ground_control/leggedgym/scripts/play.py
 ```
-This will produce outputs in `experiment_logs` which contain:
-> Insert image here 
-
 </details>
 
 ## 4. Inspect `experiment_logs` outputs
