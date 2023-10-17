@@ -13,6 +13,7 @@ nav_order: 1
 ## 0. Install Isaac-gym and test venv
 
 If you do not have Isaacgym installed please see the [Dev/Isaac](../Development/Isaac#isaac-gym) page.
+RTFM on good research code.
 
 ## 1.  Clone this repo, create venv, and install dependencies
 
@@ -43,20 +44,22 @@ pip install -e .
 - scikit-learn
 - tqdm
 
+> Briefly list why the dependencies exist
+
 
 ## 2. Run `train.py` script
 
-This runs the base training loop with sane defaults. It utilizes hydra for:
+This runs the base training loop with sane defaults. It utilizes [hydra](https://hydra.cc/docs/intro/) for:
 1. More powerful config interpolation / composition
 2. Parallelized experiment dispatch
-3. Plug-in to hyperparam search like Optuna, Ax, Nevergrad...
+3. Plug-in to hyperparam search like [Optuna](https://optuna.org/#key_features), [Ax](https://ax.dev/docs/why-ax.html), [Nevergrad](https://facebookresearch.github.io/nevergrad/)...
 
 Note that this code can be run without hydra, and it is helpful to note that clean code creates a clear barrier between "config-logic" and machinery. This maintains a clear decoupling which allows your contributions to be "evergreen" rather than ad-hoc.
 
 > See [Config Management](./config_management) for a more detailed discussion of this concept.
 
 <details markdown="block">
-<summary> 2.0 Examine the `train_nohydra.py` (expand) </summary>
+<summary> 2.0 Examine the train_nohydra.py (expand) </summary>
 ```bash
 vim train_nohydra.py
 ```
@@ -66,7 +69,7 @@ This will produce outputs in `experiment_logs` which contain:
 </details>
 
 <details markdown="block">
-<summary> 2.1 Run`train.py` (expand) </summary>
+<summary> 2.1 Run train.py (expand) </summary>
 ```bash
 cd ~/WORKING_DIR
 python ground_control/leggedgym/scripts/train.py
