@@ -59,12 +59,11 @@ Note that this code can be run without hydra, and it is helpful to note that cle
 
 <details markdown="block">
 <summary> 2.0 Examine the train_nohydra.py (expand) </summary>
+This code is an example of how to construct the Env / Runner classes and still configure them via the hierarchical dataclass `TrainScriptConfig`. Note that there is no hydra used anywhere.
+
 ```bash
 vim train_nohydra.py
 ```
-This will produce outputs in `experiment_logs` which contain:
-> Insert image of 
-
 </details>
 
 <details markdown="block">
@@ -105,9 +104,10 @@ python ground_control/leggedgym/scripts/play.py
 </details>
 
 ## 4. Inspect `experiment_logs` outputs
+At this point, you might want to look at the performance on some metrics, review saved video artifacts, inspect logs, or look at learning curves. We will briefly touch on what artifacts are produced within experiment logs as well as recommend creating a new repo to capture these.
+
 - View Tensorboard rewards
 - Make way to "remove the noise"
-
 ## 5. Make a change to the `Env` config
 
 ## 6. Train again (do step 2)
