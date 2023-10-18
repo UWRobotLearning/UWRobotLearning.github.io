@@ -5,6 +5,11 @@ parent: Updates
 nav_order: 1
 ---
 
+# Steps:
+- cd ~/temp/fast_and_efficient
+- source .env/bin/activate  (activating python3.8)
+- python -m src.robots.a1_robot_exercise_example --use_real_robot=True
+
 # Unitree on orin
 
 - Installing MuSHR Docker Container  ✅
@@ -41,6 +46,9 @@ make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Erro
 - Not able to build the sole unitree sdk properly on sdk
   without building yuxiang's code.
 
+- Not able to run "python -m src.robots.a1_robot_exercise_example --use_real_robot=True" without installing the requirements.
+
+
 
 ## Resolving unitree sdk build issue
 
@@ -64,6 +72,9 @@ make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Erro
 
    We were able to run example_position() by manually building it and thus receive data.
    Python scripts which use Pybind bindings to communciate at the low level API still work as expected.
+
+
+
    
 
 
