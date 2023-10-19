@@ -10,6 +10,13 @@ nav_order: 1
 - source .env/bin/activate  (activating python3.8)
 - python -m src.robots.a1_robot_exercise_example --use_real_robot=True
 
+
+# Redundant libs in requirements.txt in fast_and_efficient
+- tensorflow
+- pybullet
+- ml_collections
+
+
 # Unitree on orin
 
 - Installing MuSHR Docker Container  ✅
