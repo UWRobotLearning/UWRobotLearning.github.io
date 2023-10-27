@@ -8,14 +8,10 @@ nav_order: 1
 # Steps:
 - cd ~/temp/fast_and_efficient
 - source .env/bin/activate  (activating python3.8)
-- python -m src.robots.a1_robot_exercise_example --use_real_robot=True
+- python -m src.robots.a1_robot_exercise_example
 
-
-# Redundant libs in requirements.txt in fast_and_efficient
-- tensorflow
-- pybullet
-- ml_collections
-
+# Important docs
+  [UnitreeA1Doc](https://unitree-docs.readthedocs.io/en/latest/A1/A1.html)
 
 # Unitree on orin
 
@@ -28,7 +24,7 @@ nav_order: 1
 - Building Unitree v3.5.1            ✅
     1. Dependency issue was libboost ✅
     2. LCM not needed to be resolved ✅
-- Quad walks after running Yuxiang's
+- Quad walks after running Yuxiang'sx
   repo code                       ✅✅✅
 
 - Able to build Yuxiang's repo on
@@ -36,6 +32,7 @@ nav_order: 1
 
 - Able to build Unitree on docker
   and run as well as test the A1   ✅✅✅
+
 
 ## TBD
 
