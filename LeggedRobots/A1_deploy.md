@@ -80,5 +80,16 @@ make[1]: *** [CMakeFiles/Makefile2:102: CMakeFiles/robot_interface.dir/all] Erro
 
 
    
+## Mateo's Version
+I tried getting the unitree_legged_sdk and unitree_ros_to_real working with the "right" versions for the A1 (This means SDK release 3.2, and the unitree_ros_to_real_3.2.1). If you follow the instructions in the latter's README, you need to change the commands to be the following:
+```
+source /opt/ros/noetic/setup.bash
+source /usr/share/gazebo-11/setup.sh
+source ~/catkin_ws/devel/setup.bash
+<Mateo's comment: same export lines as in the readme for ROS_PACKAGE_PATH, GAZEBO_PLUGIN_PATH, LD_LIBRARY_PATH, UNITREE_SDK_VERSION, and UNITREE_LEGGED_SDK (but for this one make sure to give it the right path)>
+export UNITREE_PLATFORM="arm64"
+```
 
+THen build with catkin build and that should work.
+Then launch the launch file specified in the README for unitree_ros_to_real.
 
