@@ -4,6 +4,13 @@ title: Docker Updates
 parent: Updates
 nav_order: 1
 ---
+# unitree_legged_sdk 3.3.4 is compatible with ros and lcm for A1.
+
+# TBD
+- Need to clear the MESS below 😅
+- Need to add proper steps to build and use
+- Need to develop a bash script for downloading requirements
+
 
 # Steps:
 - cd ~/temp/fast_and_efficient
