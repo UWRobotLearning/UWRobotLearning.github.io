@@ -14,5 +14,5 @@ echo 0 > /proc/sys/kernel/yama/ptrace_scope
 Ref: https://stackoverflow.com/questions/19215177/how-to-solve-ptrace-operation-not-permitted-when-trying-to-attach-gdb-to-a-pro
 
 ## Set up debug
-<img src="../assets/imgs/vscode/launchjson.png" width="750" height="520">
+<img src="../assets/imgs/vscode/launchjson.png" width="1024" height="520">
 
