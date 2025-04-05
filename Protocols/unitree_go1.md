@@ -16,6 +16,8 @@ nav_order: 4
   - Help with this documentation being accurate.
   - Help with sim2real deployment code within [UWLab](github.com/UW-Lab/UWLab).
 
+## Battery
+
 1. **Compute Location:** Store the tablet on top of the battery charging box. Plug the tablet into the wall charger when not in use.
 2. **Battery Location:**
   - Batteries in the **"Full"** Section: 🔋✅ ready
