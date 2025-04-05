@@ -15,7 +15,7 @@ nav_order: 4
 4. The students contribute back some infrastructural work to the lab in exchange for time using the robot. 
 This can be done by:
 >  - Helping this documentation be accurate.
->  - Contributing sim2real deployment code within [UWLab](github.com/UW-Lab/UWLab).
+>  - Contributing sim2real deployment code within [UWLab](https://github.com/UW-Lab/UWLab).
 
 ## Battery
 
