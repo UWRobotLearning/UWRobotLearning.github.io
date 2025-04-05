@@ -48,9 +48,4 @@ Please read the [Unitree documentation on stopping the robot](https://shop.unitr
 
 
 ## Updating Firmware
-[Official BD Downloads Page](https://support.bostondynamics.com/s/downloads)
-
-### Tablet and Spot software
-[Maintaining Spot system software](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
-- Download the App image (.apk) from [Downloads](https://support.bostondynamics.com/s/downloads) page and follow these steps: 
-[Tablet Update Procedure](https://support.bostondynamics.com/s/article/Updating-the-Spot-system-software)
+Please refrain from changing the firmware on the robots or the remotes until discussing with senior PhD students in lab.
