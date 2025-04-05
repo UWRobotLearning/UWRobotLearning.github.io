@@ -13,8 +13,9 @@ nav_order: 4
 2. The group (e.g. PI) working with the robot promises to provide funding to cover any repairs that must be made to the robot itself or compute/sensors should something break during testing.
 3. The students working with the robot keep the robot in the lab spaces or post to the #legs channel when taking the robot to a non-standard location (e.g. testing around campus).
 4. The students contribute back some infrastructural work to the lab in exchange for time using the robot. 
-  - Help with this documentation being accurate.
-  - Help with sim2real deployment code within [UWLab](github.com/UW-Lab/UWLab).
+This can be done by:
+>  - Helping this documentation being accurate.
+>  - Contributing sim2real deployment code within [UWLab](github.com/UW-Lab/UWLab).
 
 ## Battery
 
